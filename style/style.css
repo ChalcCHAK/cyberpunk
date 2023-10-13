@@ -246,5 +246,5 @@ margin-bottom: 85px;
     margin-right: 36px;
     align-items: center;
     justify-content: space-between;
-    
+    flex-wrap: column wrap;
 }
