@@ -207,10 +207,11 @@ margin-bottom: 85px;
     flex-basis: 55%;
     background: #000;
     padding: 70px 0 70px 32px;
+    
 }
 .buy-info>h2{
     color: #FFF;
-    font-family: Archangelsk;
+    font-family: 'Archangelsk';
     font-size: 62px;
     font-weight: 400;
     padding-bottom: 25px;
@@ -241,10 +242,59 @@ margin-bottom: 85px;
 .buy-info>ul>li>img{
     margin-right: 10px;
 }
-.buy-info>.logo-brand{
+.logo-brand{
+    max-width: 316px;
     display: flex;
-    margin-right: 36px;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: column wrap;
+    margin-top: 25px;
+}
+.logo-brand>a{
+    margin-bottom: 46px;
+}
+.logo-brand>a:first-child{
+    margin-right: 46px;
+}
+.logo-brand>a:nth-child(3){
+    margin-right: 76px;
+}
+.footer{
+    background: #FFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+    height: 100px;
+}
+.logo77{
+    display: flex;
+    margin: 13px 13px 13px 320px;
+    align-items: center;
+}
+.logo02{
+    margin-left: 32px;
+}
+.textend{
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    margin: 40px 321px 39px 390px;
+    display: flex;
+}
+.pol{
+    margin-left: 32px;
+}
+.black{
+    background: #000;
+    height: 40px;
+    flex-shrink: 0;
+  
+}
+.end{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 13px;
 }
