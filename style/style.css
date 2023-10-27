@@ -267,8 +267,10 @@ margin-bottom: 85px;
 }
 .logo77{
     display: flex;
-    margin: 13px 13px 13px 320px;
+    justify-content: space-between;
     align-items: center;
+    margin: 13px 0;
+    
 }
 .logo02{
     margin-left: 32px;
@@ -278,7 +280,6 @@ margin-bottom: 85px;
     font-family: 'Roboto';
     font-size: 18px;
     font-weight: 400;
-    margin: 40px 321px 39px 390px;
     display: flex;
 }
 .pol{
@@ -286,9 +287,7 @@ margin-bottom: 85px;
 }
 .black{
     background: #000;
-    height: 40px;
-    flex-shrink: 0;
-  
+    padding: 13px 0;
 }
 .end{
     color: #FFF;
@@ -296,5 +295,45 @@ margin-bottom: 85px;
     font-family: 'Roboto';
     font-size: 12px;
     font-weight: 400;
-    margin-bottom: 13px;
+}
+
+/* адаптив */
+@media(max-width:1024px) {
+    .header {
+        background-position-x: center;
+    }
+    .yello-box2>h2 {
+        max-width: 460px;
+    }
+    .yello-box2>p {
+        max-width: 460px;
+    }
+    .monitor {
+        max-width: 460px;
+        max-height: 317px;
+    }
+    .logo-company {
+        flex-direction: column;
+        margin: 0;
+    }
+    .title{
+        max-width: 620px;
+    }
+    .text{
+        max-width: 788px;
+    }
+    .box {
+        flex-flow: wrap;
+        justify-content: center;
+        max-width: 952px;
+    }
+
+    .item1 {
+        display: flex;
+        max-width: 460px;
+    }
+    .logo77{
+        
+    }
+    
 }
