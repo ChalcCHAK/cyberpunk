@@ -304,9 +304,9 @@ margin-bottom: 85px;
 
 /* адаптив */
 @media(max-width:1024px) {
-    .header {
+    header {
         /* background-position-x: center; */
-        background: url(/img/11.png);
+        background: url(../img/11.png);
     }
     .container{
         padding: 0 36px;
@@ -350,47 +350,183 @@ margin-bottom: 85px;
 }
 /* адаптив320 */
 @media(max-width:320px) {
-    .header {
+    header{
         /* background-position-x: center; */
-        background: url(/img/11.png);
+        background: url(../img/111.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header>.container{
+        padding: 0;
+    }
+    .header-top{
+        flex-direction: column;
+        align-items: center;
+        padding: 0 12px;
+        padding-bottom: 451px;
+    }
+    .header-top>a>img{
+        width: 200px;
+    }
+    .header-info{
+        padding: 30px 34px;
+        background: #F8F200;
+        clip-path: polygon(10% 0, 100% 0, 100% 20%, 100% 79%, 90% 100%, 20% 100%, 0 100%, 0 17%);
+        margin-bottom: -48px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-info>button{
+        font-size: 20px;
+    }
+    .header-info>h1{
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .social{
+        padding-top: 10px;
+    }
+    .social>li>a>img{
+        width: 25px;
+    }
+    .social>li{
+        margin-right: 28px;
+    }
+    .yello-box{
+        flex-direction: column;
     }
     .container{
-        padding: 0 36px;
+       padding: 0 12px;
     }
-    .yello-box2>h2 {
-        max-width: 460px;
+    .yello-box2>h2{
+       max-width: 296px;
+       font-size: 30px;
     }
-    .yello-box2>p {
-        max-width: 460px;
+    .yello-box2>p{
+        max-width: 296px;
+        font-size: 16px;
+    }
+    .yello-box1>img{
+        max-width: 296px;
     }
     .monitor {
-        max-width: 460px;
-        max-height: 317px;
+        max-width: 269px;
+        max-height: 204px;
     }
-    .logo-company {
+    .logo-company{
+        flex-direction: row;
+    }
+    .logo-company>img:first-child {
+        width: 44px;
+    }
+    .logo-company>img:nth-child(2) {
+        width: 50px;
+        margin: 0 13.7px;
+    }
+    .logo-company>img:last-child {
+        width: 175px;
+    }
+    .buy{
         flex-direction: column;
-        margin: 0;
     }
-    .title{
-        max-width: 620px;
+    .buy-bg{
+        flex-basis: auto;
+        height: 198px;
     }
-    .text{
-        max-width: 788px;
+    .buy-info{
+        flex-basis: auto;
+        padding-left: 12px;
+        padding-right: 12px;
     }
-    .box {
+    .buy-info>h2{
+        font-size: 30px;
+        max-width: 296px;
+        padding: 0;
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .buy-info>ul>li{
+        font-size: 16px;
+    }
+    .logo-brand{
+        padding: 0;
+        max-width: 100%;
+        padding-top: 26px;
+    }
+    .logo-brand>a:nth-child(3){
+        margin-right: 70px;
+    }
+    .logo77{
         flex-direction: column;
+        position: relative;
+        padding-bottom: 0;
+    }
+    .logo01{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+       
+    }
+    .logo01>a:first-child>img{
+        width: 200px;
+    }
+    .logo01>a:last-child>img{
+        width: 116.25px;
+    }
+    .textend{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      
+    }
+    footer>.container{
+        padding: 0;
+        max-width: 100%;
+    }
+    .textend>a:first-child{
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    .textend::after{
+        position: absolute;
+        content: "";
+        background: #E6E6E6;
+        width: 100%;
+        height: 103px;
+        bottom: 0;
+        left: 0;
+        z-index: -1000;
+        
+    }
+    .a>.container{
+        padding: 0;
+    }
+    .photo2{
+        background-position-x: center;
     }
     .item1{
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-    }
-    .item2{
-        width: 100%;
+        flex-direction: column;
+        margin-bottom: 32px;
     }
     .photo1{
-        width: 460px;
+        width: 100%;
     }
-    
-    
+    .text{
+        padding: 0 12px;
+        font-size: 16px;
+    }
+    .title{
+        color: #000;
+        font-size: 30px;
+        font-weight: 400;
+        padding: 0 12px;
+        margin-top: 104px;
+        margin-bottom: 25px;
+    }
 }
+    
+    
